@@ -58,13 +58,21 @@ This Student Management System is a basic console application that allows you to
 
 -**Delete Student**: Delete a student record by Student ID.
 
-**Input Validation**
+## Input Validation
 The program includes input validation for Student ID, CGPA, and semester to ensure valid and positive integer or float values.
-**File Handling**
+## File Handling
 Student data is stored in a text file (SDB.txt) in a structured format.
 The program handles file creation and reading/writing data to maintain student records.
-**Contributing**
-Contributions are welcome! Feel free to open issues and submit pull requests to help improve this Student Management System.
+## Contributing
 
-**License**
-This project is licensed under the MIT License.
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Open a pull request to the `main` branch of this repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
