@@ -44,7 +44,7 @@ This Student Management System is a basic console application that allows you to
    ```
 3. Run the program:
    ```bash
-   ./student_management
+   ./SMS
    ```
 
 ## Functionality
