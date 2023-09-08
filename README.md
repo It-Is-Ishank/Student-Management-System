@@ -9,7 +9,6 @@ A simple console-based Student Management System implemented in C.
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Functionality](#functionality)
-- [Input Validation](#input-validation)
 - [File Handling](#file-handling)
 - [Contributing](#contributing)
 - [License](#license)
@@ -29,7 +28,7 @@ This Student Management System is a basic console application that allows you to
 ## Prerequisites
 
 - C Compiler (e.g., GCC)
-- Windows (for conio.h functions) or a compatible environment
+- File Handling Basics
 
 ## Usage
 
@@ -58,8 +57,7 @@ This Student Management System is a basic console application that allows you to
 
 -**Delete Student**: Delete a student record by Student ID.
 
-## Input Validation
-The program includes input validation for Student ID, CGPA, and semester to ensure valid and positive integer or float values.
+
 ## File Handling
 Student data is stored in a text file (SDB.txt) in a structured format.
 The program handles file creation and reading/writing data to maintain student records.
