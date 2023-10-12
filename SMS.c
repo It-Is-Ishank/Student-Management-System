@@ -18,7 +18,7 @@ void addStudent(struct Student *studentArray[], int *studentCount)
     {
         struct Student *newStudent = (struct Student *)malloc(sizeof(struct Student));
 
-        // Get student data from user input
+        // Get the student data from user input
         printf("Enter Student ID: ");
         scanf("%d", &newStudent->SID);
         printf("Enter Student Name: ");
