@@ -161,6 +161,7 @@ void fetchStudents(struct Student *studentArray[])
         return;
     }
 
+
     // Consume the newline character after the student count
     int newlineChar = fgetc(file);
 
