@@ -22,7 +22,7 @@ void addStudent(struct Student *studentArray[], int *studentCount)
         printf("Enter Student ID: ");
         scanf("%d", &newStudent->SID);
         printf("Enter Student Name: ");
-        scanf(" %[^\n]s", newStudent->name); // Read the entire line, including spaces
+        scanf("%99[^\n] ", newStudent->name); // Read the entire line, including spaces
         printf("Enter CGPA: ");
         scanf("%f", &newStudent->CGPA);
         printf("Enter Current Semester: ");
@@ -31,6 +31,7 @@ void addStudent(struct Student *studentArray[], int *studentCount)
         // Add the new student to the array
         studentArray[*studentCount] = newStudent;
         (*studentCount)++;
+        
     }
     else
     {
@@ -159,6 +160,7 @@ void fetchStudents(struct Student *studentArray[])
         fclose(file);
         return;
     }
+
 
     // Consume the newline character after the student count
     int newlineChar = fgetc(file);
