@@ -11,7 +11,6 @@ A simple console-based Student Management System implemented in C.
 - [Functionality](#functionality)
 - [File Handling](#file-handling)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -35,7 +34,7 @@ This Student Management System is a basic console application that allows you to
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/It-Is-Ishank/Student-Management-System.git
    ```
 2. Compile the source code:
    ```bash
